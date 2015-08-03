@@ -9,6 +9,8 @@ _This text is incorporated into the wikibook as_ [Register VM in Swift](https://
 
 _This text and the text from which it was translated are licensed under the_ [Creative Commons Attribution-ShareAlike License](http://creativecommons.org/licenses/by-sa/3.0/).
 
+_This text will render well in Xcode 7 if you select_ Show Rendered Markup _in the Editor menu._
+
 ## Design
 
 The first example will be one of the simplest possible architectures, and it will consist of
@@ -314,7 +316,7 @@ run()
 /*:
 
 ## Sample run
-Here is the output from the program:
+Here is the output from the program:
 
     loadi r0 #100
     regs = 0064 0000 0000 0000
