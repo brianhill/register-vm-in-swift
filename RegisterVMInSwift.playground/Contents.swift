@@ -11,6 +11,8 @@ _This text and the text from which it was translated are licensed under the_ [Cr
 
 _This text will render well in Xcode 7 if you select_ Show Rendered Markup _in the Editor menu._
 
+_This playground has been updated to work with Swift 2.1._
+
 ## Design
 
 The first example will be one of the simplest possible architectures, and it will consist of
@@ -281,7 +283,8 @@ func formatRegister(reg:Int) -> String {
 }
 
 func showRegs() -> Void {
-    print("regs = " + " ".join(regs.map(formatRegister)))
+    print("regs = ", terminator:"")
+    print(regs.map(formatRegister).joinWithSeparator(" "))
 }
 
 /*:
